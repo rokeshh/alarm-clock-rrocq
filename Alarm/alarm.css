@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(2, 0, 36);
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 98, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+    background-image: url(./assets/1314202.jpg);
+    background-size: cover;
+}
+
+.contain {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-size: 5rem;
+}
+
+.clock {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#alarm_containr {
+    display:none;
+    position: absolute;
+    bottom: 111px;
+}
+
+
+#setalarm{
+    padding: 12px 45px;
+    margin: 15px;
+    text-transform: uppercase;
+    background: none;
+    border-color: white;
+    color: white;
+    border-radius: 25px;
+    transition: 0.5s;
+
+
+}
+
+#setalarm:hover {
+    background-color: white ;
+    border-color: black;
+    outline: 1px solid whitesmoke;
+    color: black;
+    background-position: right center;
+    
+
+
+}
+
+/* #setalarm {
+
+    background-image: linear-gradient(to right, #304352 0%, #d7d2cc 51%, #304352 100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+
+#setalarm:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+} */
+
+#status{
+
+    position: relative;
+    margin-top: 20px;
+    top: 50px;
+    font-size: 14px;
+}
+
+.seter{
+    margin-top: 30px;
+}
+#alarm-time{
+
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+
+#wrapper {
+    margin-top: 50px;
+    border: 3px solid white;
+    padding: 1rem;
+}
+
+.container span {
+    margin-left: 10px;
+}
+
+#ampm {
+    font-size: 3rem;
+    align-items: end;
+}
